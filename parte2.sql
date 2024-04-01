@@ -2,7 +2,7 @@ use mercado_online;
  
 select * from clientes;
 insert into clientes
-VALUES
+values
 ( null, 'maria', 'wwwwwww@gmail.com', '000000000', '2010-04-01' ),
 ( null, 'jose', 'pppppp@gmail.com', '111111111', '2017-01-02' ),
 ( null, 'wesley', 'zzzzzzz@gmail.com', '222222222', '2025-04-03' ),
@@ -68,5 +68,5 @@ update id_pedidos
 set valor_unitario = ( select preco from produtos where id =id_produto ),  valor_total = ( select preco*quantidade from produtos where id = id_produto )
 where id = 04;
 
-delete from itens_pedido where id = 04;
-delete from itens_pedido where id = 05;
+delete from pedidos where id = 04;
+delete from pedidos where id = 05;
