@@ -1,8 +1,7 @@
 use mercado_online;
  
 select * from clientes;
-insert into clientes
-values
+insert into clientes values
 ( null, 'maria', 'wwwwwww@gmail.com', '000000000', '2010-04-01' ),
 ( null, 'jose', 'pppppp@gmail.com', '111111111', '2017-01-02' ),
 ( null, 'wesley', 'zzzzzzz@gmail.com', '222222222', '2025-04-03' ),
@@ -53,7 +52,7 @@ insert into itens_pedidos values
 ( null, 11, 20, 1, 2 ,1);
 
 update clientes
-set nome = 'anajuh_01'
+set nome = 'maria'
 where id= 09;
 
 update produtos
