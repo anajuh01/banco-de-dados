@@ -137,17 +137,7 @@ INSERT INTO produtos (nome, preco, descricao, quantidade_estoque) VALUES
 ('Ventilador USB Portátil Modelo 98', 30.00, 'Silencioso, duas velocidades', 120),
 ('Lâmpada Inteligente Modelo 99', 40.00, '16 milhões de cores, Wi-Fi', 105),
 ('Máquina de Café Expresso Modelo 100', 110.00, 'Prepara bebidas com cápsulas', 75);
- -- create a table
-CREATE TABLE students (
-  id INTEGER PRIMARY KEY,
-  name TEXT NOT NULL,
-  gender TEXT NOT NULL
-);
--- insert some values
-INSERT INTO students VALUES (1, 'Ryan', 'M');
-INSERT INTO students VALUES (2, 'Joanna', 'F');
--- fetch some values
-SELECT * FROM students WHERE gender = 'F';
+
 
 
 # 1:
